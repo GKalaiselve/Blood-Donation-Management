@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blood Donation Management Website
 
 This is a full-stack web application for managing blood donations. It includes features for donor registration, searching for donors, and an admin dashboard to manage donors.
@@ -80,3 +81,6 @@ This is a full-stack web application for managing blood donations. It includes f
 
 ---
 *This project was built by an AI assistant.*
+=======
+# Blood-Donation-Management
+>>>>>>> bb0892e126dd7de7a6d5f38e7e133108b4d3cdad
