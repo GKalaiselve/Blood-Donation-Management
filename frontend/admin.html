@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Blood Donation Management</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register as Donor</a></li>
+                <li><a href="search.html">Find Donors</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="admin-login">
+            <h2>Admin Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p id="login-message"></p>
+        </div>
+
+        <div id="admin-dashboard" style="display: none;">
+            <h2>Admin Dashboard</h2>
+            <table id="donors-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Blood Group</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>City</th>
+                        <th>Last Donation</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blood Donation Management</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
